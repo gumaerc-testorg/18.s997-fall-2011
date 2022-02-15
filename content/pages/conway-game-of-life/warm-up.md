@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Conway Game of Life
+parent_type: CourseSection
 parent_uid: 71d3260e-1e77-4a0e-ad3b-6b3411cacf8c
 title: Warm-up
 uid: 63b7f21b-14f9-7880-2f14-7e5eef949b23

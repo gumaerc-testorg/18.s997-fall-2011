@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Root-Finding
+parent_type: CourseSection
 parent_uid: 33cb3bda-3dc0-895f-f5de-7bc1b91f60c2
 title: Newton's Method
 uid: b66efdff-770f-0bea-25c3-7377318de9c0

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Basic Plotting
+parent_type: CourseSection
 parent_uid: 81a610a8-35a9-454d-733f-ecd98304058c
 title: Warm-up
 uid: cf798304-e742-31c2-5fa3-24cb0ee3ab0e

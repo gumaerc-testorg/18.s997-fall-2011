@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Basic Plotting
 uid: 81a610a8-35a9-454d-733f-ecd98304058c
 ---

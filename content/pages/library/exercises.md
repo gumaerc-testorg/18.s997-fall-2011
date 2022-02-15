@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Library
+parent_type: CourseSection
 parent_uid: f9312176-280b-6b53-7b61-db0880b99562
 title: Exercises
 uid: cd7c2d27-5ba5-e73e-6cc6-551edae9359f

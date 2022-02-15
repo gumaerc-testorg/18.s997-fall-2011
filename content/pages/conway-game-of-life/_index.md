@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Conway Game of Life
 uid: 71d3260e-1e77-4a0e-ad3b-6b3411cacf8c
 ---

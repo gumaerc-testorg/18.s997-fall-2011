@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Basic Plotting
+parent_type: CourseSection
 parent_uid: 81a610a8-35a9-454d-733f-ecd98304058c
 title: Basins of Attraction
 uid: e97ad6fd-f5f1-abbc-81c0-a3cefd271812

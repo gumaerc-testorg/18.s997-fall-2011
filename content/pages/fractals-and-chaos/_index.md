@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Fractals and Chaos
 uid: 1d7068b5-ce8d-3b56-622a-e79682a1dd43
 ---

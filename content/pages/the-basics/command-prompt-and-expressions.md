@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: The Basics
+parent_type: CourseSection
 parent_uid: 71bd52f8-0211-8491-207f-722087127ab2
 title: Command Prompt and Expressions
 uid: a49b4dad-e887-0239-3428-74b2309ddbed
@@ -60,6 +63,6 @@ ans =
     5.8979e-10
 ```
 
-**Exercise 2.** _Remember the cosine rule?_ \\(c^2=a^2+b^2-2a b\\, \\cos(\\theta)\\). _Find the length of the hypotenuse of a triangle with angle 30ο, and sides with lengths 10 and 20. The_ MATLAB _trigono­metric functions_ (cos, sin, tan) _use radians, so you will need to convert using \\(\\pi\\)._
+**Exercise 2.** _Remember the cosine rule?_ \\(c^2=a^2+b^2-2a b\\, \\cos(\\theta)\\). _Find the length of the hypotenuse of a triangle with angle 30{{< sup "ο" >}}, and sides with lengths 10 and 20. The_ MATLAB _trigono­metric functions_ (cos, sin, tan) _use radians, so you will need to convert using \\(\\pi\\)._
 
 For guided practice and further exploration of how to use the command prompt, watch [Video Lecture 2: The Command Prompt]({{< baseurl >}}/pages/library/videos/lecture-2-the-command-prompt).

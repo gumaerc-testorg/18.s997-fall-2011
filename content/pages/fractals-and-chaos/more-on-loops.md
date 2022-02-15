@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Fractals and Chaos
+parent_type: CourseSection
 parent_uid: 1d7068b5-ce8d-3b56-622a-e79682a1dd43
 title: More on Loops
 uid: e3b06d2c-1ab6-413e-6e03-3e6f881df396
@@ -42,12 +45,12 @@ Of course, this fails miserably if `y` is not a positive integer (doesn't do any
 *   _A_ perfect number _is a number_ \\(n\\) _whose divisors (including 1 but excluding itself) add up to_ \\(n\\) _itself. For example, 6 is a perfect number. Check if a number is perfect._
 *   _Use two nested_ `while` _loops to find the first 3 perfect numbers._
 
-**Homework 5.** _Consider the following sequence defined completely by the first element_ \\(S\_1\\)¶:
+**Homework 5.** _Consider the following sequence defined completely by the first element_ \\(S\_1\\){{< sup "¶" >}}:
 
 \\begin{equation} S\_{n+1}= \\begin{cases} S\_n/2 & \\text{ if } S\_n \\text{ is even}\\\\ 3 S\_n+1 & \\text{ if } S\_n \\text{ is odd} \\end{cases} \\end{equation}
 
-_A still_|| _open question in mathematics is whether all such sequences always arrive at 1 for large enough_ \\(n\\) _(the alternatives being that some sequences may rise indefinitely, or that there may be a closed orbit that does not include 1). Compute the number of iterations it takes to arrive at_ \\(1\\) _given a starting value_ \\(s\\) _using a while loop. Since we do not know how long it will take to arrive at 1 (though you can assume that it will happen eventually) we might want to construct this sequence using a while-loop. What starting number smaller than 10,000 has the longest trajectory? What's the largest number on that trajectory?_
+_A still_{{< sup "||" >}} _open question in mathematics is whether all such sequences always arrive at 1 for large enough_ \\(n\\) _(the alternatives being that some sequences may rise indefinitely, or that there may be a closed orbit that does not include 1). Compute the number of iterations it takes to arrive at_ \\(1\\) _given a starting value_ \\(s\\) _using a while loop. Since we do not know how long it will take to arrive at 1 (though you can assume that it will happen eventually) we might want to construct this sequence using a while-loop. What starting number smaller than 10,000 has the longest trajectory? What's the largest number on that trajectory?_
 
-§This is the subject of the Collatz Conjecture.
+{{< sup "§" >}}This is the subject of the Collatz Conjecture.
 
-||Despite a recent "near" solution.
+{{< sup "||" >}}Despite a recent "near" solution.

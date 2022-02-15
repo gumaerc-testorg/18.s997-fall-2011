@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Vectorization and User-Defined Functions
+parent_type: CourseSection
 parent_uid: 18645230-e50f-3945-e34d-99f24f40ca3a
 title: Scope
 uid: 9feb7d76-e06d-418f-a379-2948357f1bec

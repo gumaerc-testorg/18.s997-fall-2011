@@ -1,8 +1,12 @@
 ---
 content_type: resource
 description: This resource contains information regarding homework 7.
-file: /media/https%3A/open-learning-course-data-rc.s3.amazonaws.com/18-s997-introduction-to-matlab-programming-fall-2011/350767a9947afc41bd673deafa3f2b8b_MIT18_S997F11_Homework_7.pdf
+file: /media/courses/18-s997-introduction-to-matlab-programming-fall-2011/350767a9947afc41bd673deafa3f2b8b_MIT18_S997F11_Homework_7.pdf
 file_type: application/pdf
+learning_resource_types: []
+ocw_type: OCWFile
+parent_title: Homework
+parent_type: CourseSection
 resourcetype: Document
 title: '18.S997 Fractals and Chaos: Homework 7'
 uid: 350767a9-947a-fc41-bd67-3deafa3f2b8b

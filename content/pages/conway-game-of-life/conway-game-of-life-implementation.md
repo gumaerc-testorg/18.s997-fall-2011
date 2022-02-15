@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Conway Game of Life
+parent_type: CourseSection
 parent_uid: 71d3260e-1e77-4a0e-ad3b-6b3411cacf8c
 title: Conway Game of Life Implementation
 uid: 1d99d88a-59e7-ffd3-c082-67cb9d37d780
