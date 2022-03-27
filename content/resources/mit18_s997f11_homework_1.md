@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Homework
 parent_type: CourseSection
+parent_uid: af6bed81-c4d0-d0aa-0ddf-c05a4f082b9d
 resourcetype: Document
 title: '18.S997 The Basics: Homework 1'
 uid: 3d1cd21b-18b4-b583-96db-02e24061a05e

@@ -14,8 +14,9 @@ ul.hyphen-list {list-style-type: none; margin-left: 1.5em; padding-left: 1em; te
 *   Code an _arbitrary precision_ (integer) addition code. The start of the code should be where the "numbers" are defined. For example:
     
     ```
-    N1=[1 9 5 4 3 8 4 8 5 6 0 3 4 0 5 3 2 4 5 6 ]; % to mean  19543848560340532456
-    N2=[2 3 4 3 2 3 4 5 4 8 6 4 7 8 9 7 6 5 3 2 1 4 6 7 9 ]; 
+    `N1=[1 9 5 4 3 8 4 8 5 6 0 3 4 0 5 3 2 4 5 6 ]; % to mean  19543848560340532456
+    N2=[2 3 4 3 2 3 4 5 4 8 6 4 7 8 9 7 6 5 3 2 1 4 6 7 9 ];` `% stands for
+        2343234548647897653214679`
     ```
     
     These numbers are to big to be represented _exactly_ in MATLAB®. Your task is to write code that follows the rules of addition (adding from smallest to largest) and gets the precise answer, in the same format (that is an array of integers). There are various limitations that need to be discussed:

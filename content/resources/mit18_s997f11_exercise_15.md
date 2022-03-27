@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Exercises
 parent_type: CourseSection
+parent_uid: cd7c2d27-5ba5-e73e-6cc6-551edae9359f
 resourcetype: Document
 title: '18.S997 Vectorization: Exercise 15'
 uid: b044d51d-73f0-6653-a620-0d28be6e571e

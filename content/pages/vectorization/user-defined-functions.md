@@ -77,8 +77,7 @@ May define more functions in same file
 When we "call" a function we usually give it input and expect output. For example:
 
 ```
-
->>a=sin(pi/2)
+ >>a=sin(pi/2)
 a =
      1
 ```
@@ -114,8 +113,7 @@ ans =
 But if you ask for two output variables, sort will also tell you the _permutation_ needed to get from the input to the output:
 
 ```
-
->> A=rand(1,4)
+ >> A=rand(1,4)
 A =
      0.9473    0.1685    0.5514    0.2684
 >> [B,C]=sort(A)

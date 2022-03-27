@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Exercises
 parent_type: CourseSection
+parent_uid: cd7c2d27-5ba5-e73e-6cc6-551edae9359f
 resourcetype: Document
 title: 18.S997 Conway Game Exercise 20
 uid: ad1927f1-f354-712e-8749-e21e935a3ff5

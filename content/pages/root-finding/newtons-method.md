@@ -52,7 +52,9 @@ While using the command history is faster than typing in the same command many t
 Both types of loops tell MATLAB to perform a set of commands over and over again. The idea of a `for` loop is that you are telling MATLAB to perform a set of command _for_ every element of a list that you supply. For example:
 
 ```
-for
+`for` `k=3:10 % for every element in 3:10
+     k^2   % calculate _that element_ squared` 
+`end`
 ```
 
 will _iterate_ over the values 3 to 10 and perform each of the expressions between the `for` and the `end`. At each iteration, the variable, k in this case (but can be whatever) will be assigned the appropriate value.
@@ -77,15 +79,15 @@ end
 To see the functions we are working with, we can do a nice little plot:
 
 ```
-x=linspace(0,pi,100); % a list of 100 points equally spaced between 0
+`x=linspace(0,pi,100); % a list of 100 points equally spaced between 0
                       % and pi
-plot(x,tanh(x),x,x/3) 
+plot(x,tanh(x),x,x/3)` `% plot two curves: tanh(x) vs. x and x/3 vs. x`
 ```
 
 You can read more about the functions we used today using the `help` command. For example:
 
 ```
->> help tanh
+`>> help tanh
      TANH Hyperbolic tangent.
           TANH(X) is the hyperbolic tangent of the elements of X.
 
@@ -94,7 +96,7 @@ You can read more about the functions we used today using the `help` command. Fo
           Overloaded methods:
                codistributed/tanh
           Reference page in Help browser
-               doc 
+               doc` `tanh`
 ```
 
 Notice that in MATLAB help the commands and variables are always written in CAPITAL LETTERS, this is to make them stand out. In practice, the built-in MATLAB commands are all in lower-case. Your own variables (and functions) may use either, and MATLAB _is_ case-sensitive:

@@ -36,8 +36,32 @@ This formulation is a much better way of understanding Newton's method, as it ex
 How to implement? First we need a specific function: \\(\\vec f(\[x,y\]^t)=\[x^3-y,y^3-x\]^t\\) and thus the Jacobian matrix is \\((\\begin{smallmatrix} 3x^2 & -1 \\\\ -1& 3y^2 \\end{smallmatrix})\\). In MATLAB we want to have one variable, say \\(X\\), be a column vector that holds both \\(x\\) and \\(y\\). The code for a simple Newton method for \\(f\\) would be:
 
 ```
-X=[1;2];   % the starting point. Notice the use of semicolon to define a column vector
-for j=1:10 
+`X=[1;2];   % the starting point. Notice the use of semicolon to define a column vector
+for j=1:10` `% iterate 10 times`
+           `% let's do this using variables so that we can see what's going on:` `f=[X(1)^3 - X(2), X(2)^3 - X(1)]';` `% Another way to define a`
+ `% column vector is to define a row`
+ `% vector and then transpose it using`
+ `% the apostrophe '. WARNING the [ ]`
+ `% is a prime example of how matlab`
+ `% can try to be too smart: look at`
+ `% the difference between`
+ `% [1+2,3]`
+ `% [1 +2,3] and`
+ `% [1 + 2 , 3] all legal`
+ `% expressions, but one gives an`
+ `% unexpected answer since we can use`
+ `% space instead of comma to separate`
+ `% terms in a row vector.`
+ `Jf=[3*X(1)^2, -1; -1, 3*X(2)^2];` `% the Jacobian matrix. Notice the
+                                        % semicolon after the second`
+ `% term. This is like saying "now
+                                        % start a new row".`
+ `X=X-Jf\f;` `% the update rule. This does not invert the`
+ `% matrix. By using "left divide" the linear system is solved,`
+ `% this is equivalent but faster than inverting and multiplying`
+`end` `format long` `% to see the full precision`
+`X            % so that we see the final answer
+format short` `% to only see 4 digits again`
 ```
 
 **Exercise 11.** _Multi-dimensional Newton's method_

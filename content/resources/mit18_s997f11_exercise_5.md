@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Exercises
 parent_type: CourseSection
+parent_uid: cd7c2d27-5ba5-e73e-6cc6-551edae9359f
 resourcetype: Document
 title: '18.S997 Root-Finding: Exercise 5'
 uid: aca59684-56fb-12c1-b84f-c996f0ba81e1

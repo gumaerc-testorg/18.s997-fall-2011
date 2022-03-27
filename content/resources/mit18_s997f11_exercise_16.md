@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Exercises
 parent_type: CourseSection
+parent_uid: cd7c2d27-5ba5-e73e-6cc6-551edae9359f
 resourcetype: Document
 title: '18.S997 Fractals and Chaos: Exercise 16'
 uid: 73d9acd7-7066-bf17-b49b-679de24741a8

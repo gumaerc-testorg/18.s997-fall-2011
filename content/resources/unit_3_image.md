@@ -15,6 +15,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: Basic Plotting
 parent_type: CourseSection
+parent_uid: 81a610a8-35a9-454d-733f-ecd98304058c
 resourcetype: Image
 title: Unit_3_image.jpg
 uid: 82c0f0e7-b907-c844-65b2-3c309c5b3eee

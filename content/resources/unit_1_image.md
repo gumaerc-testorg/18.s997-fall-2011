@@ -13,6 +13,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: The Basics
 parent_type: CourseSection
+parent_uid: 71bd52f8-0211-8491-207f-722087127ab2
 resourcetype: Image
 title: Unit_1_image.jpg
 uid: 0994bdb9-43a6-fe32-a26e-8ce8d392a5cb

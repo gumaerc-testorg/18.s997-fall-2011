@@ -30,17 +30,17 @@ Graphing the Mandelbrot set.
 Notice that it takes quite a long time to run, especially if you modify the code to give you a plot with better resolution. To fix this we want to use matrix-at-once calculation. We can create matrices X and Y using `meshgrid`:
 
 ```
-x=-1.5:.1:1;
+`x=-1.5:.1:1;
 y=-1.5:.1:1.5;
-[X,Y]=meshgrid(x,y);
+[X,Y]=meshgrid(x,y);` `% make sure you understand what this function does!`
 ```
 
 Each element in these matrices holds the appropriate x- or y-value for that position in the matrix. We can now calculate the iterations very simply:
 
 ```
-Z=X+1i*Y;   % use 1i since you can overwrite i but 1i will always be sqrt(-1)
+`Z=X+1i*Y;   % use 1i since you can overwrite i but 1i will always be sqrt(-1)
 Zn=0*Z;     % Start with zeros everywhere
-Zn=Zn.^2+Z; 
+Zn=Zn.^2+Z;` `% One step of the iteration, notice the point-wise power operator.`
 ```
 
 Now that we know how to iterate we need to figure out how to color the different points. Here's where the name of this subsection comes in.

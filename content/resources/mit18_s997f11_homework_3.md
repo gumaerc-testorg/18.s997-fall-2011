@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Homework
 parent_type: CourseSection
+parent_uid: af6bed81-c4d0-d0aa-0ddf-c05a4f082b9d
 resourcetype: Document
 title: '18.S997 Vectorization: Homework 3'
 uid: c39c159e-3b9b-5527-f5f9-4fbb22ef16b8
