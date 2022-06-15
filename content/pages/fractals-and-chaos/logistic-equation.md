@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page contains a homework assignment on how to plot a fractal using
+  a loop.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Fractals and Chaos
@@ -7,6 +9,8 @@ parent_type: CourseSection
 parent_uid: 1d7068b5-ce8d-3b56-622a-e79682a1dd43
 title: Logistic Equation
 uid: 892e211f-42f9-0c33-de8e-347b0fe16037
+video_metadata:
+  youtube_id: null
 ---
 
 **Homework 4.** _For \\(r\\) varying between 0 and 4, find out the possible "limit cycles"{{< sup "§" >}} of the iterative map:_
@@ -25,7 +29,7 @@ _Use the "matrix-at-a-time" notation we learned in the last iteration example:_
 
 Hint 1: (Am I getting the right answer?) The result should look something like this:
 
-![Plot of many iterations of a function that branches to the right.]({{< resource_file 499d8ad9-368c-05f2-d747-7651b1f6e7ba >}})
+{{< resource 499d8ad9-368c-05f2-d747-7651b1f6e7ba >}}
 
 Graphing an iterative function.
 

@@ -1,12 +1,16 @@
 ---
 content_type: page
+description: This section includes lecture notes on the concept of debugging and how
+  to use MATLAB's debugger.
 learning_resource_types: []
 ocw_type: CourseSection
 title: Debugging with MATLAB
 uid: 376c3d97-71c7-c91d-107d-f6d7f5c02e64
+video_metadata:
+  youtube_id: null
 ---
 
-![Screenshot of MATLAB's debugger mode and stepping into a function.]({{< resource_file 7437327a-e5bf-da23-70d0-6765bd18a913 >}})
+{{< resource 7437327a-e5bf-da23-70d0-6765bd18a913 >}}
 
 Debugging code in MATLAB helps ensure that code produces the desire output.
 
@@ -28,4 +32,4 @@ Related Video
 
 The video below demonstrates, step-by-step, how to work with MATLAB in relation to the topics covered in this unit.
 
-*   [Lecture 6: Debugging]({{< baseurl >}}/resources/lecture-6-debugging)
+*   {{% resource_link 67220f39-6760-eeb4-2a09-af32a393ec79 "Lecture 6: Debugging" %}}

@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page includes lecture notes and two exercises on using the command
+  prompt.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: The Basics
@@ -7,6 +9,8 @@ parent_type: CourseSection
 parent_uid: 71bd52f8-0211-8491-207f-722087127ab2
 title: Command Prompt and Expressions
 uid: a49b4dad-e887-0239-3428-74b2309ddbed
+video_metadata:
+  youtube_id: null
 ---
 
 At its heart, MATLAB® is a big calculator. To calculate something simply type it in at the "command prompt" and press Enter. Thus, to calculate 1 + 1 we type it in and press Enter. The screen should show:

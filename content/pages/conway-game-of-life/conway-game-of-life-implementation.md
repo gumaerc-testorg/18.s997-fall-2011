@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page includes homework assignments and exercises that culminate
+  in a coding project to fully implement the Conway Game of Life using MATLAB.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Conway Game of Life
@@ -7,6 +9,8 @@ parent_type: CourseSection
 parent_uid: 71d3260e-1e77-4a0e-ad3b-6b3411cacf8c
 title: Conway Game of Life Implementation
 uid: 1d99d88a-59e7-ffd3-c082-67cb9d37d780
+video_metadata:
+  youtube_id: null
 ---
 
 This project implements the Conway Game of Life. Idea: The world consists of a 2D grid. Each cell in the grid can be "alive" or "dead". At each step the cells are updated according to the following rules:
@@ -27,13 +31,7 @@ As you can easily see when trying to increase the size of the grid, this is a ve
 The hardest part of the calculation is the neighbor-counting part. Here's one way to do this:
 
 ```
-`Noff_r= [-1, -1, 0, 1, 1,  1,  0, -1];` %the row offset of the 8 neighbors 
-`Noff_c=[ 0,  1, 1, 1, 0, -1, -1, -1];` %the column offset of the 8 neighbors
-`n N=numel(Noff_r);` % the number of neighbors each element has
-`count =` zeros`(`size`(A)-[2 2]);` %A is the grid with a border of zeros
-for `j j=1:n N       count=count + A(Noff_r(jj)+(2:`end`-1),Noff_c(jj)+(2:`end`-1));` %this is the heart
-end %now count will have the correct number of alive neighbors.
-
+Noff_r= [-1, -1, 0, 1, 1,  1,  0, -1];
 ```
 
 **Exercise 20.** _It takes time and practice to understand code. Explain to a friend, or a classmate how this code works._

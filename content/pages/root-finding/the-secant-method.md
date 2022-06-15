@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page includes lecture notes, two exercises, and a homework assignment
+  that introduce the secant method and convergence.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Root-Finding
@@ -7,6 +9,8 @@ parent_type: CourseSection
 parent_uid: 33cb3bda-3dc0-895f-f5de-7bc1b91f60c2
 title: The Secant Method
 uid: 1bc369b7-cf75-3e2c-e077-7b944523c88c
+video_metadata:
+  youtube_id: null
 ---
 
 While Newton's method is fast, it has a big downside: you need to know the derivative of \\(f\\) in order to use it. In many "real-life" applications, this can be a show-stopper as the functional form of the derivative is not known. A natural way to resolve this would be to estimate the derivative using
@@ -120,7 +124,7 @@ ans =
 
 The last line makes the following plot (except for the green line, which is \\(y=2x\\)):
 
-![Graph of a line and roots to verify second-order convergence of Newton's method.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/root-finding/the-secant-method/18-S997f11_unit2_img1.jpg)
+{{< resource "a7cbcafa-652d-e3ce-7ee1-0f5edaf5b6bb" >}}
 
 MATLAB can calculate roots through Newton's method, and verification of convergence is graphed.
 

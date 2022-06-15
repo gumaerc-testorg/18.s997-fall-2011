@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page includes lecture notes, two exercises, and a project prompt
+  on complex numbers and the basin of attraction.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Vectorization and User-Defined Functions
@@ -7,6 +9,8 @@ parent_type: CourseSection
 parent_uid: 18645230-e50f-3945-e34d-99f24f40ca3a
 title: Complex Numbers
 uid: 0523856e-c9fc-9e71-66c9-d2d9aecf63e3
+video_metadata:
+  youtube_id: null
 ---
 
 Complex numbers \\(x+iy\\) can be dealt with "natively" in MATLAB®. This means that you can take powers and roots of any number. One surprising and very powerful fact about complex functions is that a single derivative (not a \\(2\\times2\\) Jacobian) gives you the full derivative information (assuming that the function is analytic).
@@ -15,7 +19,7 @@ Complex numbers \\(x+iy\\) can be dealt with "natively" in MATLAB®. This means 
 
 Here's the basin of attraction of the roots of \\(z^5+1\\):
 
-![A colorful 1000x1000 plot of basin of attraction with radial symmetry.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/vectorization/18-S997f11_unit4_img1.jpg)
+{{< resource "88a5c2d3-65a1-82b0-f58c-c34f766072e4" >}}
 
 A plot of the basin of attraction with complex roots.
 
@@ -26,11 +30,10 @@ We need to "vectorize" the calculation and only plot once at the end after we ha
 We let a matrix \\(A\\) hold all the values of the iterations that correspond to the different points we will end up plotting. Thus we can set up the initial \\(A\\) as follows:
 
 ```
-`N=1000;
+N=1000;
 x=linspace(-5,5,N);% linspace is another function that creates vectors.
 y=linspace(-5,5,N); % Read about it!
-A=ones(N,1)*x + 1i*y'*ones(1,N);` `%A is a 1000x1000 matrix.` `% Notice the use of linear algebra to create a matrix out of two vectors.
-% Make sure you understand this.`
+A=ones(N,1)*x + 1i*y'*ones(1,N);
 ```
 
 **Exercise 13.** _Make sure you understand:_
@@ -53,8 +56,8 @@ A=A-f(A)./f'(A); %Notice the ./ ? This means, POINT-WISE multiplication,
 And we can. We only need to make sure that we define functions \\(f\\) and \\(f'\\) that know how to work with a matrix and return the right answer. We can also make our code more flexible by using our own functions (\\(f(x)\\) and \\(f'(x))\\). Here is how to define simple (one command) functions:
 
 ```
-`f=@(x) x.^5+1; %Notice the point here? However there's no such thing as .+
-fp=@(x) 5*x.^4;` `%Here too, but not with the * since the "5" is a "scalar"`
+f=@(x) x.^5+1; %Notice the point here? However there's no such thing as .+
+fp=@(x) 5*x.^4; 
 ```
 
 After defining `f` and `fp`, they can be used like any other MATLAB function:
@@ -75,11 +78,11 @@ ans =
 Last, but not least, plotting a 2D surface (the following code has nothing to do with our problem, but it illustrates how to plot a nice 2D surface):
 
 ```
-`x=linspace(0,2*pi);
+x=linspace(0,2*pi);
 y=x';
 [X,Y]=meshgrid(x,y);%x,y are vectors,X,Y are matrices
 Z=sin(X).*cos(Y.^2);
-pcolor(X,Y,Z);``%create a "surface" colored by Z.`
+pcolor(X,Y,Z);
 ```
 
 There are slight variations to `pcolor`: `mesh`, `surf`, and more. Learn about them using the `help` command.

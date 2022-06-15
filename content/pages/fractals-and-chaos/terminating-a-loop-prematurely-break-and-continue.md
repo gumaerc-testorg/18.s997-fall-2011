@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page includes lectures notes and two homework assignments on how
+  to terminate and manipulate loops using MATLAB commands.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Fractals and Chaos
@@ -7,12 +9,14 @@ parent_type: CourseSection
 parent_uid: 1d7068b5-ce8d-3b56-622a-e79682a1dd43
 title: 'Terminating a Loop Prematurely: Break and Continue'
 uid: 82a5f4af-7795-cec4-2244-10e4df0f38ae
+video_metadata:
+  youtube_id: null
 ---
 
 As you may recall, a `while` loop will evaluate all its statements without checking the condition. Similarly a `for` loop will run through all of its iterations. The `break` keyword tells MATLAB® to exit the loop immediately. It will only terminate one loop (in the case of nested loop, the innermost one it is in) and will normally be protected by an `if` statement (otherwise the loop is silly). Here is an example that computes the "trajectory" of 6 but stops if it finds a 17 in it:
 
 ```
-`s=6;             % initialize s to 6
+s=6;             % initialize s to 6
 while s~=1       % as long as s is not equal to 1 stay in the loop
      if s==17    % if s equals 17
           sprintf('Found 17 in the loop!!')
@@ -21,9 +25,7 @@ while s~=1       % as long as s is not equal to 1 stay in the loop
      if mod(s,2) % the actual "brains" of the iteration
           s=s/2;
      else
-          s=3*s+1;` 
-     `end
-end`
+          s=3*s+1;   
 ```
 
 The keyword `continue` is similar but different. It avoids the rest of the statements of the inner most loop, but continues in the loop (does not stop like `break`).
@@ -53,7 +55,7 @@ while 1      % this means that unless we use "break", the loop will continue "fo
      if m>=100   % if we have enough
           break; % stop looking for primes
      end
-end 
+end
 ```
 
 **Homework 6.** _The keywords_ `break` _and_ `continue` _are not "needed''_ per se, _but they can make the code more elegant and readable. Rewrite the above code for the first 100 primes without using neither_ `continue` _nor_ `break`.

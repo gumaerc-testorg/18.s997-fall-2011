@@ -1,12 +1,16 @@
 ---
 content_type: page
+description: This section includes a content overview for a unit on vectorization,
+  using complex numbers, and how to create a user-defined function in MATLAB.
 learning_resource_types: []
 ocw_type: CourseSection
 title: Vectorization and User-Defined Functions
 uid: 18645230-e50f-3945-e34d-99f24f40ca3a
+video_metadata:
+  youtube_id: null
 ---
 
-![Screenshot of a function definition to covert Fahrenheit to Celsius and the respective function call.]({{< resource_file 36f255a2-ce33-6eaa-5299-d030e4970a98 >}})  
+{{< resource 36f255a2-ce33-6eaa-5299-d030e4970a98 >}}  
 Screenshot of a function definition to convert Fahrenheit to Celsius and the respective function call.
 
 Another convenience of MATLAB® is its ability to manipulate complex numbers, such that you can take powers and roots of any number. For practice, you will be asked to calculate and plot the basins of attraction for a polynomial in the complex plane.
@@ -22,7 +26,7 @@ Related Videos
 
 The videos below demonstrate, step-by-step, how to work with MATLAB in relevance to the topics covered in this unit.
 
-*   [Lecture 5: Scripts and Functions]({{< baseurl >}}/resources/lecture-5-scripts-and-functions)  
-    This video includes material supplementary to [Scope]({{< baseurl >}}/pages/vectorization/scope).
-*   [Lecture 6: Debugging]({{< baseurl >}}/resources/lecture-6-debugging)  
-    This video includes material supplementary to [Scope]({{< baseurl >}}/pages/vectorization/scope), Homework 3.
+*   {{% resource_link c00f640c-8701-c641-0648-f92bfa3cd13d "Lecture 5: Scripts and Functions" %}}  
+    This video includes material supplementary to {{% resource_link 9feb7d76-e06d-418f-a379-2948357f1bec "Scope" %}}.
+*   {{% resource_link 67220f39-6760-eeb4-2a09-af32a393ec79 "Lecture 6: Debugging" %}}  
+    This video includes material supplementary to {{% resource_link 9feb7d76-e06d-418f-a379-2948357f1bec "Scope" %}}, Homework 3.

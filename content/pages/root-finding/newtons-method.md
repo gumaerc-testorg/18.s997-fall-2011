@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page includes lecture notes and three exercises that introduce the
+  implementation of Newton's Method.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Root-Finding
@@ -7,6 +9,8 @@ parent_type: CourseSection
 parent_uid: 33cb3bda-3dc0-895f-f5de-7bc1b91f60c2
 title: Newton's Method
 uid: b66efdff-770f-0bea-25c3-7377318de9c0
+video_metadata:
+  youtube_id: null
 ---
 
 \\(\\newcommand{\\sech}{\\mathop{\\rm sech}\\nolimits} \\newcommand{\\csch}{\\mathop{\\rm csch}\\nolimits}\\)
@@ -52,9 +56,7 @@ While using the command history is faster than typing in the same command many t
 Both types of loops tell MATLAB to perform a set of commands over and over again. The idea of a `for` loop is that you are telling MATLAB to perform a set of command _for_ every element of a list that you supply. For example:
 
 ```
-`for` `k=3:10 % for every element in 3:10
-     k^2   % calculate _that element_ squared` 
-`end`
+for
 ```
 
 will _iterate_ over the values 3 to 10 and perform each of the expressions between the `for` and the `end`. At each iteration, the variable, k in this case (but can be whatever) will be assigned the appropriate value.
@@ -79,15 +81,15 @@ end
 To see the functions we are working with, we can do a nice little plot:
 
 ```
-`x=linspace(0,pi,100); % a list of 100 points equally spaced between 0
+x=linspace(0,pi,100); % a list of 100 points equally spaced between 0
                       % and pi
-plot(x,tanh(x),x,x/3)` `% plot two curves: tanh(x) vs. x and x/3 vs. x`
+plot(x,tanh(x),x,x/3) 
 ```
 
 You can read more about the functions we used today using the `help` command. For example:
 
 ```
-`>> help tanh
+>> help tanh
      TANH Hyperbolic tangent.
           TANH(X) is the hyperbolic tangent of the elements of X.
 
@@ -96,7 +98,7 @@ You can read more about the functions we used today using the `help` command. Fo
           Overloaded methods:
                codistributed/tanh
           Reference page in Help browser
-               doc` `tanh`
+               doc 
 ```
 
 Notice that in MATLAB help the commands and variables are always written in CAPITAL LETTERS, this is to make them stand out. In practice, the built-in MATLAB commands are all in lower-case. Your own variables (and functions) may use either, and MATLAB _is_ case-sensitive:
