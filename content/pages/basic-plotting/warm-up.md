@@ -1,9 +1,16 @@
 ---
 content_type: page
+description: This page contains short exercises for content review from the past lectures
+  and for basic techniques for making plots.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Basic Plotting
+parent_type: CourseSection
 parent_uid: 81a610a8-35a9-454d-733f-ecd98304058c
 title: Warm-up
 uid: cf798304-e742-31c2-5fa3-24cb0ee3ab0e
+video_metadata:
+  youtube_id: null
 ---
 
 *   What do `1:10`, `1:2:10` `100:-25:0` do? Think, then check.
@@ -32,7 +39,7 @@ plot(x,y)
 {{< tdopen >}}
 
 
-![Graph of an upward-facing parabola in blue.]({{< resource_file af01e8db-e2e8-c5ff-1ba7-2e8492b491f1 >}})
+{{< resource af01e8db-e2e8-c5ff-1ba7-2e8492b491f1 >}}
 
 Graphing a simple function, y=x^2.
 
@@ -61,7 +68,7 @@ plot(x,y,'g.')
 {{< tdopen >}}
 
 
-![Graph of an upward-facing parabola with discontinuous green line markers.]({{< resource_file a5af8ec4-4234-d0ae-2903-a33a90cf1246 >}})
+{{< resource a5af8ec4-4234-d0ae-2903-a33a90cf1246 >}}
 
 Stylizing the graphs with colors and line markers.
 
@@ -91,7 +98,7 @@ plot(x,y,'r')
 {{< tdopen >}}
 
 
-![Graph of a Lissajous figure in red.]({{< resource_file 8cb777cd-aee2-a340-c543-59f60c3f387a >}})
+{{< resource 8cb777cd-aee2-a340-c543-59f60c3f387a >}}
 
 Graphing a non-function in MATLAB®.
 

@@ -1,9 +1,16 @@
 ---
 content_type: page
+description: This page includes lectures notes and two homework assignments on how
+  to terminate and manipulate loops using MATLAB commands.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Fractals and Chaos
+parent_type: CourseSection
 parent_uid: 1d7068b5-ce8d-3b56-622a-e79682a1dd43
 title: 'Terminating a Loop Prematurely: Break and Continue'
 uid: 82a5f4af-7795-cec4-2244-10e4df0f38ae
+video_metadata:
+  youtube_id: null
 ---
 
 As you may recall, a `while` loop will evaluate all its statements without checking the condition. Similarly a `for` loop will run through all of its iterations. The `break` keyword tells MATLAB® to exit the loop immediately. It will only terminate one loop (in the case of nested loop, the innermost one it is in) and will normally be protected by an `if` statement (otherwise the loop is silly). Here is an example that computes the "trajectory" of 6 but stops if it finds a 17 in it:

@@ -1,9 +1,16 @@
 ---
 content_type: page
+description: This page includes lecture notes, two exercises, and a project prompt
+  on complex numbers and the basin of attraction.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Vectorization and User-Defined Functions
+parent_type: CourseSection
 parent_uid: 18645230-e50f-3945-e34d-99f24f40ca3a
 title: Complex Numbers
 uid: 0523856e-c9fc-9e71-66c9-d2d9aecf63e3
+video_metadata:
+  youtube_id: null
 ---
 
 Complex numbers \\(x+iy\\) can be dealt with "natively" in MATLAB®. This means that you can take powers and roots of any number. One surprising and very powerful fact about complex functions is that a single derivative (not a \\(2\\times2\\) Jacobian) gives you the full derivative information (assuming that the function is analytic).
@@ -12,7 +19,7 @@ Complex numbers \\(x+iy\\) can be dealt with "natively" in MATLAB®. This means 
 
 Here's the basin of attraction of the roots of \\(z^5+1\\):
 
-![A colorful 1000x1000 plot of basin of attraction with radial symmetry.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/vectorization/18-S997f11_unit4_img1.jpg)
+{{< resource "88a5c2d3-65a1-82b0-f58c-c34f766072e4" >}}
 
 A plot of the basin of attraction with complex roots.
 

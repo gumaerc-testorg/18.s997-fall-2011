@@ -1,9 +1,16 @@
 ---
 content_type: page
+description: This page includes lecture notes and an exercise on manipulating lists,
+  vectors, and matrices.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: The Basics
+parent_type: CourseSection
 parent_uid: 71bd52f8-0211-8491-207f-722087127ab2
 title: Lists, Vectors, and Matrices
 uid: 7836f3ce-cf5f-4025-30dd-78bd120b701a
+video_metadata:
+  youtube_id: null
 ---
 
 MATLAB® is particularly convenient at calculating with lists of numbers. In fact, it was built for manipulating two-dimensional lists called matrices. An n-by-m matrix has n rows and m columns of numbers, and many MATLAB commands know how to work correctly and efficiently with them.

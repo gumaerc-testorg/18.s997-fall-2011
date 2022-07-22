@@ -1,9 +1,15 @@
 ---
 content_type: page
+description: This page includes a brief introduction to programming.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: The Basics
+parent_type: CourseSection
 parent_uid: 71bd52f8-0211-8491-207f-722087127ab2
 title: What is Programming?
 uid: 45835dfc-c452-9857-1439-3b5178da3666
+video_metadata:
+  youtube_id: null
 ---
 
 Every computer is a machine. It does not think. It cannot understand. It does not know what you want it to do.

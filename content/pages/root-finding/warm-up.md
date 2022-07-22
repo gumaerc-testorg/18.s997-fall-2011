@@ -1,9 +1,15 @@
 ---
 content_type: page
+description: This page contains warm-up problems on some MATLAB basics.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Root-Finding
+parent_type: CourseSection
 parent_uid: 33cb3bda-3dc0-895f-f5de-7bc1b91f60c2
 title: Warm-up
 uid: 914a82ac-fa92-cf91-5ecf-24b1e2c6d1ce
+video_metadata:
+  youtube_id: null
 ---
 
 Here are some warm-up problems:

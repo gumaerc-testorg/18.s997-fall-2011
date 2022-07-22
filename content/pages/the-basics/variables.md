@@ -1,9 +1,16 @@
 ---
 content_type: page
+description: This page includes lecture notes on using variables and a homework assignment
+  for additional practice.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: The Basics
+parent_type: CourseSection
 parent_uid: 71bd52f8-0211-8491-207f-722087127ab2
 title: Variables
 uid: a56e8e06-8426-107c-a093-c76e207364bd
+video_metadata:
+  youtube_id: null
 ---
 
 _Often, a result of some calculation is needed for later use, or perhaps a complicated expression can be examined more carefully if done in parts. Both can be done by the use of "variables". Variables hold whatever result you put in them by the use of the equal sign (`=`):_

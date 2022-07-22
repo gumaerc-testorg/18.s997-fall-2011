@@ -1,9 +1,16 @@
 ---
 content_type: page
+description: This page includes lecture notes on how to create a user-defined function
+  in MATLAB.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Vectorization and User-Defined Functions
+parent_type: CourseSection
 parent_uid: 18645230-e50f-3945-e34d-99f24f40ca3a
 title: User-Defined Functions
 uid: 38dcb8d2-635f-7663-efc8-af4d44a9d9ea
+video_metadata:
+  youtube_id: null
 ---
 
 We have just seen—above, using the \\(@(x)\\) notation—an example of how to create simple user-defined functions. This notation can only have one line of code, and oftentimes that can be insufficient for the task at hand. We have also seen scripts files, in which we can put many lines of code and then "call" the script to have MATLAB® execute the lines in that script. So what's a function and how is it different from a script?

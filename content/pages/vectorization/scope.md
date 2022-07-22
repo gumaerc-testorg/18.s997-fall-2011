@@ -1,9 +1,16 @@
 ---
 content_type: page
+description: This page includes lecture notes, two exercises, and a homework assignment
+  on using functions within their define scope.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Vectorization and User-Defined Functions
+parent_type: CourseSection
 parent_uid: 18645230-e50f-3945-e34d-99f24f40ca3a
 title: Scope
 uid: 9feb7d76-e06d-418f-a379-2948357f1bec
+video_metadata:
+  youtube_id: null
 ---
 
 Functions define a small world of variables that are isolated from the rest of the "workspace". This is mostly a good thing, though you may find it limiting at times. It is important to realize that a function can call itself, and even then the variables inside the called function cannot interact directly with those of the calling workspace. Here is an example to show this:
@@ -86,7 +93,7 @@ We can run this function by calling it with the value for `mu` from the command 
 
 which results in the figure:
 
-![Graph of the oscillator iterations in blue.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/vectorization/18-S997f11_unit4_img2.jpg)
+{{< resource "01f41609-eedf-c2d7-11bd-02593bab20d4" >}}
 
 Plotting the solution to the Van-der-Pol oscillator.
 
