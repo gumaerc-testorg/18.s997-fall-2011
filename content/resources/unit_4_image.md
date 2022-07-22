@@ -11,6 +11,7 @@ image_metadata:
   image-alt: Screenshot of a function definition to covert Fahrenheit to Celsius and
     the respective function call.
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWImage
 parent_title: Vectorization and User-Defined Functions
 parent_type: CourseSection
@@ -22,4 +23,3 @@ video_metadata:
   youtube_id: null
 ---
 For more complex calculations and tasks, functions can be created and defined in MATLAB. (Photograph courtesy of Yossi Farjoun. Used with permission.)
-

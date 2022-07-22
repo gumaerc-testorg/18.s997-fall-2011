@@ -4,6 +4,7 @@ description: This resource contains information regarding homework 8.
 file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/d432b042fe4c6d59c95fffd649a88677_MIT18_S997F11_Homework_8.pdf
 file_type: application/pdf
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Homework
 parent_type: CourseSection
@@ -15,4 +16,3 @@ video_metadata:
   youtube_id: null
 ---
 This resource contains information regarding homework 8.
-

@@ -9,6 +9,7 @@ image_metadata:
   credit: Photograph courtesy of Yossi Farjoun. Used with permission.
   image-alt: "Screenshot of MATLAB\u2019s debugger mode and stepping into a function."
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWImage
 parent_title: Debugging with MATLAB
 parent_type: CourseSection
@@ -20,4 +21,3 @@ video_metadata:
   youtube_id: null
 ---
 Debugging code in MATLAB helps ensure that code produces the desire output. Photograph courtesy of Yossi Farjoun. Used with permission.
-

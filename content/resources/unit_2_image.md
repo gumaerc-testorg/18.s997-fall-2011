@@ -11,6 +11,7 @@ image_metadata:
   image-alt: "Graph of a line and roots to verify second-order convergence of Newton\u2019\
     s method."
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWImage
 parent_title: Root-Finding
 parent_type: CourseSection
@@ -22,4 +23,3 @@ video_metadata:
   youtube_id: null
 ---
 MATLAB can calculate roots through Newton’s method, and verification of convergence is graphed. (Photograph courtesy of Yossi Farjoun. Used with permission.)
-

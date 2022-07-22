@@ -4,6 +4,7 @@ description: This resource contains information regarding exercise 6.
 file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/75f6e744c2a42efa7c7ed55512f2a1e8_MIT18_S997F11_Exercise_6.pdf
 file_type: application/pdf
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Exercises
 parent_type: CourseSection
@@ -15,4 +16,3 @@ video_metadata:
   youtube_id: null
 ---
 This resource contains information regarding exercise 6.
-

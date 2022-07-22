@@ -4,6 +4,7 @@ description: ''
 file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/75e6cb3a8e09dd0f7435638ed377ebf7_lWSsUH_MQM4.pdf
 file_type: application/pdf
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 resourcetype: Document
 title: 3play pdf file
