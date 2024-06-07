@@ -4,6 +4,7 @@ description: "Generating fractals is a comprehensive way to utilize MATLAB\u2019
   \ programming loops and logical expressions. (Photograph courtesy of Yossi Farjoun.\
   \ Used with permission.)"
 file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/d647c10a8ecf3544d49f7aa60b9387d1_Unit_5_image.JPG
+file_size: 45662
 file_type: image/jpeg
 image_metadata:
   caption: "Generating fractals is a comprehensive way to utilize MATLAB\u2019s programming\

@@ -2,6 +2,7 @@
 content_type: resource
 description: ''
 file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/e932aa909b4a47f20720410c3dfa5f5c_WpAXzSJJqW4.pdf
+file_size: 17376
 file_type: application/pdf
 learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
