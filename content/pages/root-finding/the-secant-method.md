@@ -28,7 +28,7 @@ Coding in a File
 
 Instead of writing all your commands at the command prompt, you can type a list of commands in a file, save it and then have MATLAB® "execute" all of the commands as if you had typed them into the command prompt. This is useful when you have more than very few lines to write because inevitably you are bound to make a small mistake every time you write more than 5 lines of code. By putting the commands in a file you can correct your mistakes without introducing new ones (hopefully). It also makes it possible to "debug" your code, something we will learn later.
 
-For guided practice and further exploration of how to debug, watch [Video Lecture 6: Debugging]({{< baseurl >}}/pages/library/videos/lecture-6-debugging).
+For guided practice and further exploration of how to debug, watch {{% resource_link "67220f39-6760-eeb4-2a09-af32a393ec79" "Video Lecture 6: Debugging" %}}.
 
 MATLAB files have names that end with `.m`, and the name itself must comprise only letters and numbers with no spaces. The first character must be a letter, not a number. Open a new file by clicking on the white new-file icon in the top left of the window, or select from the menu File\\(\\rightarrow\\)New\\(\\rightarrow\\)Script. Copy the Newton method code for \\(\\tanh(x)=x/3\\) into it. Save it and give it a name (NewtonTanh.m for example). Now on the command prompt you "run" the file by typing the name (without the `.m`) and pressing Enter .
 
@@ -40,7 +40,7 @@ A few points to look out for:
 *   If you get strange errors when you try to run your file, make sure that there are no spaces or other non-letters in your filename, and that the file is in the path.
 *   Remember that after you make changes to your file, you need to save it so that MATLAB will be aware of the changes you made.
 
-For guided practice and further exploration of how to use MATLAB files, watch [Video Lecture 3: Using Files]({{< baseurl >}}/pages/library/videos/lecture-3-using-files).
+For guided practice and further exploration of how to use MATLAB files, watch {{% resource_link "01e581a8-1cba-3b53-0d29-7eb44635a452" "Video Lecture 3: Using Files" %}}.
 
 **Exercise 7.** _Save the file as SecantTanh.m and modify the code so that it implements the Secant Method. You should increase the number of iterations because the Secant Method doesn't converge as quickly as Newton's method._
 

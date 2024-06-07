@@ -69,4 +69,4 @@ ans =
 
 **Exercise 2.** _Remember the cosine rule?_ \\(c^2=a^2+b^2-2a b\\, \\cos(\\theta)\\). _Find the length of the hypotenuse of a triangle with angle 30{{< sup "ο" >}}, and sides with lengths 10 and 20. The_ MATLAB _trigono­metric functions_ (cos, sin, tan) _use radians, so you will need to convert using \\(\\pi\\)._
 
-For guided practice and further exploration of how to use the command prompt, watch [Video Lecture 2: The Command Prompt]({{< baseurl >}}/pages/library/videos/lecture-2-the-command-prompt).
+For guided practice and further exploration of how to use the command prompt, watch {{% resource_link "9b4a2cc9-714d-7cf6-75be-79f825505e30" "Video Lecture 2: The Command Prompt" %}}.
