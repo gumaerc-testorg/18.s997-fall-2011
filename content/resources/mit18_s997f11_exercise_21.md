@@ -2,6 +2,7 @@
 content_type: resource
 description: This resource contains information regarding exercise 21.
 file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/8c7811569df44e1f4d1ca2a15c9f9b11_MIT18_S997F11_Exercise_21.pdf
+file_size: 136321
 file_type: application/pdf
 learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

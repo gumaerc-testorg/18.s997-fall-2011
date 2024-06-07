@@ -54,7 +54,7 @@ _Try it out for small value of n (it will not work for large ones). (The resulti
 
 User-defined functions are useful in providing structure to your code. When writing code try to think in terms of functions. Separate the big task into smaller ones and define them in terms of input and output. Your main code should then be easier to read as it will consist of calls to the functions, each of which has a clearly defined task. Notice that in a function file, one can define more than one function. Simply start a new line with the keyword `function` and continue as before. This function will only be _directly callable_ from within the file (since the name of the file matches a different function) though there are tricks by which one can still provide access to such "hidden" functions (too advanced for this course).
 
-For guided practice and further exploration of scripted functions, watch [Video Lecture 5: Scripts and Functions]({{< baseurl >}}/pages/library/videos/lecture-5-scripts-and-functions).
+For guided practice and further exploration of scripted functions, watch {{% resource_link "c00f640c-8701-c641-0648-f92bfa3cd13d" "Video Lecture 5: Scripts and Functions" %}}.
 
 Here's an example of a function that calculates and plots the solution to the Van-der-Pol oscillator (must be saved into a file called VDPDemo.m):
 
@@ -114,4 +114,4 @@ _Now terminate this execution._
 
 _Change the code so that the function_ `dXdt` _is defined outside the main function (by moving one_ `end` _placement). Debug again and notice how the variable_ `mu` _is no longer visible inside the function_ `dXdt`. _At what point does the code fail?_
 
-_For guided practice and further exploration of debugging, watch [Video Lecture 6: Debugging]({{< baseurl >}}/pages/library/videos/lecture-6-debugging)._
+_For guided practice and further exploration of debugging, watch {{% resource_link "67220f39-6760-eeb4-2a09-af32a393ec79" "Video Lecture 6: Debugging" %}}._
