@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This resource contains information regarding homework 10.
-file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/c305380262ab5a94a2e40ccf3500191c_MIT18_S997F11_Homework_10.pdf
+file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/c305380262ab5a94a2e40ccf3500191c_MIT18_S997F11_Homework_10.pdf
 file_size: 129849
 file_type: application/pdf
 learning_resource_types: []

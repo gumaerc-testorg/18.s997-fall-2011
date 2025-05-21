@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/0ac9580b72f7dcc176c8338d6e47968d_lWSsUH_MQM4.srt
+file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/0ac9580b72f7dcc176c8338d6e47968d_lWSsUH_MQM4.srt
 file_size: 10503
 file_type: application/x-subrip
 learning_resource_types: []

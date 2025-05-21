@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This resource contains information regarding project 2.
-file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/6183b5c4ef55229d58331e997cffcc29_MIT18_S997F11_Project_2.pdf
+file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/6183b5c4ef55229d58331e997cffcc29_MIT18_S997F11_Project_2.pdf
 file_size: 137329
 file_type: application/pdf
 learning_resource_types: []
