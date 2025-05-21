@@ -2,7 +2,7 @@
 content_type: resource
 description: "MATLAB can calculate roots through Newton\u2019s method, and verification\
   \ of convergence is graphed. (Photograph courtesy of Yossi Farjoun. Used with permission.)"
-file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/c319a882228dad053930769a73e283e6_Unit_2_image.JPG
+file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/c319a882228dad053930769a73e283e6_Unit_2_image.JPG
 file_size: 33907
 file_type: image/jpeg
 image_metadata:

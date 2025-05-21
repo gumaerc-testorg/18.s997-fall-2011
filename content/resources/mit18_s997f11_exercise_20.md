@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This resource contains information regarding exercise 20.
-file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/ad1927f1f354712e8749e21e935a3ff5_MIT18_S997F11_Exercise_20.pdf
+file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/ad1927f1f354712e8749e21e935a3ff5_MIT18_S997F11_Exercise_20.pdf
 file_size: 108141
 file_type: application/pdf
 learning_resource_types: []

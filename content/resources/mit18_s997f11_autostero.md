@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This resource contains information regarding autostereograms.
-file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/ec4952de13837ef40c5dfba40a7d3c4a_MIT18_S997F11_Autostero.pdf
+file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/ec4952de13837ef40c5dfba40a7d3c4a_MIT18_S997F11_Autostero.pdf
 file_size: 192415
 file_type: application/pdf
 learning_resource_types: []
