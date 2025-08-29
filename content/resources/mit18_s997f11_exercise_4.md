@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This resource contains information regarding exercise 4.
-file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/c692ec310e1bff839c1dab6e590d483f_MIT18_S997F11_Exercise_4.pdf
+file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/c692ec310e1bff839c1dab6e590d483f_MIT18_S997F11_Exercise_4.pdf
 file_size: 105726
 file_type: application/pdf
 learning_resource_types: []

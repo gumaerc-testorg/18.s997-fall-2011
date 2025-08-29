@@ -2,7 +2,7 @@
 content_type: resource
 description: "Example of Conway\u2019s Game of Life after multiple iterations of Conway\u2019\
   s Game of Life. (Photograph courtesy of djspyhunter on Flickr.)"
-file: /courses/18-s997-introduction-to-matlab-programming-fall-2011/8742cd78f14e8cd449c0fbae0fc3cd36_Unit_7_image.JPG
+file: /ol-ocw-studio-app/courses/18-s997-introduction-to-matlab-programming-fall-2011/8742cd78f14e8cd449c0fbae0fc3cd36_Unit_7_image.JPG
 file_size: 101719
 file_type: image/jpeg
 image_metadata:
