@@ -32,6 +32,8 @@
     "website": "18-s997-introduction-to-matlab-programming-fall-2011"
   },
   "course_title": "Introduction To MATLAB Programming",
+  "hide_download": false,
+  "mit_learn_topics": [],
   "course_description": "This course is intended to assist undergraduates with learning the basics of programming in general and programming MATLAB\u00ae in particular.\n",
   "department_numbers": [
     "18"
@@ -45,10 +47,10 @@
   "learning_resource_types": [
     "Problem Sets",
     "Lecture Videos",
-    "Online Textbook",
     "Programming Assignments with Examples"
   ],
   "site_uid": "1dafcc85-0503-4f98-af6a-bac0aa40cda4",
   "site_short_id": "18.s997-fall-2011",
+  "site_url_path": "courses/18-s997-introduction-to-matlab-programming-fall-2011",
   "title": "Course Metadata"
 }
