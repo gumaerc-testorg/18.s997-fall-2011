@@ -34,7 +34,7 @@ Students need to have access to a computer with MATLAB installed. Which version 
 
 The students should have a way to access their files whenever they start working. If no other solution is possible, a USB "stick" can easily hold the student's files. The students need to have access to MATLAB outside of class hours.
 
-\[_Note to OCW Users_: MIT OpenCourseWare does not provide student access or discounts for [MATLAB software](http://www.mathworks.com/products/matlab/). It can be purchased from The MathWorks®. For more information about [MATLAB Pricing and Licensing](http://www.mathworks.com/products/matlab/pricing_licensing.html?s_iid=ML2012_pricing_a#commercial_use), contact [The MathWorks](http://www.mathworks.com/index.html)® directly.\]
+\[_Note to OCW Users_: MIT OpenCourseWare does not provide student access or discounts for {{% resource_link "c705326a-8d7d-4159-b1e0-3f9b35f35b35" "MATLAB software" %}}. It can be purchased from The MathWorks®. For more information about {{% resource_link "7d5289e5-43a0-41db-b33e-663163f57d6a" "MATLAB Pricing and Licensing" %}}, contact {{% resource_link "62c9d94c-fe83-494b-b9e8-a269cad0fe85" "The MathWorks" %}}® directly.\]
 
 ### Video Lectures
 
